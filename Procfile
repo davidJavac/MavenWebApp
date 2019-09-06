@@ -1,1 +1,1 @@
-web: java -cp target/classes/;target/dependency/* Controller.Controller
+web: java -cp target/classes/:target/dependency/* Controller.Controller
