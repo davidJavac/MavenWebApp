@@ -1,1 +1,1 @@
-web: java -cp target/classes/:target/dependency/* Controller.Controller
+web: java $JAVA_OPTS -jar target/dependency/MavenWebApp.jar --port $PORT target/*.war
